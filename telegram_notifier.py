@@ -1,12 +1,17 @@
+import os
 import asyncio
 from datetime import datetime
 from loguru import logger
 import telebot
 from telebot.async_telebot import AsyncTeleBot
 import emoji
+from dotenv import load_dotenv
+
+# Загружаем переменные окружения
+load_dotenv()
 
 # Конфигурация бота
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = "7670172403:AAFtYayGm9ocfG6wyNoXox0SPKXfSvcXj9M"
 CHANNEL_ID = "-1002422777931"
 
 # Инициализация бота
@@ -78,7 +83,12 @@ async def test_notification():
         'forwards': 15,
         'message_link': 'https://t.me/test_channel/123'
     }
-    await send_vacancy_notification(test_data)
+    try:
+        await send_vacancy_notification(test_data)
+    finally:
+        # Закрываем сессию бота
+        await bot.close_session()
+        await asyncio.sleep(0.250)  # Даем время на закрытие соединений
 
 if __name__ == '__main__':
     # Тестируем отправку уведомления
