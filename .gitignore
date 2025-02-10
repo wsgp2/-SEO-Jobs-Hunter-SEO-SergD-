@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+# .env.example
+venv/
+.venv/
+
+# Logs
+*.log
+parser_log.txt
+crm_sync_log.txt
+
+# Session files
+*.session
+*.session-journal
+
+# Temporary data files
+parsing_progress.json
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
+vika-seo-crm-*.json
+*-7725de7c707a.json
+
+# Исключаем все Excel файлы, кроме файлов с SEO вакансиями
+*.xlsx
+!seo_vacancies*.xlsx
+!data_seohr*.xlsx
