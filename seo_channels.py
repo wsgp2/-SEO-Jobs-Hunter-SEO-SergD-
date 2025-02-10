@@ -3,6 +3,50 @@
 """
 
 SEO_CHANNELS = [
+    # Новые каналы с вакансиями
+    {
+        "name": "SEO ТРЕНД",
+        "members": 1800,
+        "link": "https://t.me/seo_trend",
+        "username": "seo_trend"
+    },
+    {
+        "name": "SEO практика | Кравцов Виталий",
+        "members": 3700,
+        "link": "https://t.me/seopraktika",
+        "username": "seopraktika"
+    },
+    {
+        "name": "SEO chat",
+        "members": 4100,
+        "link": "https://t.me/seochat",
+        "username": "seochat"
+    },
+    # Новые каналы с вакансиями
+    {
+        "name": "SEO Vacancies | SEO Jobs",
+        "members": 0,
+        "link": "https://t.me/seo_jobs",
+        "username": "seo_jobs"
+    },
+    {
+        "name": "Вакансии SMM и Digital",
+        "members": 0,
+        "link": "https://t.me/dnative_job",
+        "username": "dnative_job"
+    },
+    {
+        "name": "Вакансии SMM, SEO, SERM, CRM, Email",
+        "members": 0,
+        "link": "https://t.me/smm_seo_serm_crm_job",
+        "username": "smm_seo_serm_crm_job"
+    },
+    {
+        "name": "Вакансии/работа digital marketing | SMM | SEO | контент | таргет | PR",
+        "members": 0,
+        "link": "https://t.me/jobindigital",
+        "username": "jobindigital"
+    },
     # Специализированные SEO-каналы
     {
         "name": "SEO HR, digital-вакансии",
