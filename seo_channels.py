@@ -3,6 +3,77 @@
 """
 
 SEO_CHANNELS = [
+    # Специализированные SEO-каналы
+    {
+        "name": "SEO HR, digital-вакансии",
+        "members": 19523,
+        "link": "https://t.me/seohr",
+        "username": "seohr"
+    },
+    # IT и Digital-сфера
+    {
+        "name": "Job in IT&Digital",
+        "members": 0,
+        "link": "https://t.me/newhr",
+        "username": "newhr"
+    },
+    # Маркетинг и контент
+    {
+        "name": "MarketingJobs",
+        "members": 0,
+        "link": "https://t.me/marketing_jobs",
+        "username": "marketing_jobs"
+    },
+    {
+        "name": "РЕКЛАМОДРОМ",
+        "members": 0,
+        "link": "https://t.me/reklamodromo",
+        "username": "reklamodromo"
+    },
+    {
+        "name": "Вакансер",
+        "members": 0,
+        "link": "https://t.me/vakanser",
+        "username": "vakanser"
+    },
+    # Региональные и нишевые каналы
+    {
+        "name": "Антирабство",
+        "members": 0,
+        "link": "https://t.me/antirabstvoru",
+        "username": "antirabstvoru"
+    },
+    {
+        "name": "DreamJob – Вакансии",
+        "members": 0,
+        "link": "https://t.me/yojob",
+        "username": "yojob"
+    },
+    {
+        "name": "CAREERLIFT",
+        "members": 0,
+        "link": "https://t.me/careerlift",
+        "username": "careerlift"
+    },
+    # Дополнительные каналы
+    {
+        "name": "Вакансии с зп выше 50 тысяч",
+        "members": 0,
+        "link": "https://t.me/Well_paid_Job",
+        "username": "Well_paid_Job"
+    },
+    {
+        "name": "VDHL.RU",
+        "members": 0,
+        "link": "https://t.me/vdhl_good",
+        "username": "vdhl_good"
+    },
+    {
+        "name": "Работа в медиа",
+        "members": 0,
+        "link": "https://t.me/dddwork",
+        "username": "dddwork"
+    },
     {
         "name": "HR Paleshko Test",
         "members": 1,
